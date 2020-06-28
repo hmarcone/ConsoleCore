@@ -8,8 +8,9 @@ namespace GameTop
 		static void Main(string[] args)
 		{
 			var jogo = new JogoFoda(
-				new Jogador3(),
-				new Jogador2()
+				new Jogador1(),
+				new Jogador2(),
+				new Jogador3()
 			);
 			jogo.IniciarJogo();
 		}
